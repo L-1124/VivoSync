@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">VivoSync</string>
+
+    <!-- 通用操作与状态 -->
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确定</string>
+    <string name="action_delete">删除</string>
+    <string name="action_create">创建</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_back">返回</string>
+    <string name="action_authorize">授权</string>
+    <string name="action_goto_settings">去设置</string>
+    <string name="action_go">前往</string>
+    <string name="dialog_hint_title">提示</string>
+    <string name="dialog_select_title">请选择</string>
+
+    <!-- 底部导航与无障碍说明 -->
+    <string name="nav_home">课表同步</string>
+    <string name="nav_home_desc">课表同步</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_settings_desc">参数与设置</string>
+
+    <!-- 权限提示与弹窗 -->
+    <string name="permission_dialog_title">需要日历权限</string>
+    <string name="permission_dialog_desc">同步功能需要日历读写权限，以便将课程日程直接写入 vivo 系统日历与原子小组件。应用不会读取或修改您的任何个人日常日程。</string>
+    <string name="permission_dialog_confirm">继续授权</string>
+    <string name="permission_disabled_title">日历权限已被禁用</string>
+    <string name="permission_disabled_desc">同步需要日历权限。当前权限已被关闭，请在系统权限设置中手动开启【读取和写入日历】。</string>
+    <string name="permission_banner_title">需要日历权限</string>
+    <string name="permission_banner_desc">用于同步系统课程表</string>
+
+    <!-- 首页 HomeScreen -->
+    <string name="fab_menu_expand">展开操作菜单</string>
+    <string name="fab_menu_collapse">收起操作菜单</string>
+    <string name="fab_item_school">从教务系统导入</string>
+    <string name="fab_item_ics">导入 .ics 文件</string>
+    <string name="fab_item_new_calendar">新建空白课表</string>
+    <string name="section_system_calendars">系统课程表</string>
+    <string name="calendar_status_current">当前课表</string>
+    <string name="calendar_course_count">%1$d 门课程</string>
+    <string name="action_set_as_current">设置当前</string>
+    <string name="action_more_options">更多选项</string>
+    <string name="action_delete_calendar">删除课程表</string>
+    <string name="empty_calendars_title">暂无课程表</string>
+    <string name="empty_calendars_subtitle">新建课表或导入教务网/文件</string>
+    <string name="action_import_file">导入文件</string>
+    <string name="action_new_calendar">新建课表</string>
+    <string name="dialog_create_calendar_title">新建课程表</string>
+    <string name="dialog_create_calendar_msg">为即将同步的课程表起一个名称，例如「2026春季」。</string>
+    <string name="dialog_create_calendar_placeholder">如：2026春季</string>
+    <string name="dialog_create_calendar_label">课程表名称</string>
+    <string name="dialog_delete_calendar_title">删除课程表</string>
+    <string name="dialog_delete_calendar_msg">确定彻底删除「%1$s」及其全部课程日程？</string>
+
+    <!-- 设置页 SettingsScreen -->
+    <string name="settings_title">设置</string>
+    <string name="setting_dynamic_color_title">系统主题色</string>
+    <string name="setting_dynamic_color_desc">跟随系统主题色（Android 12+）</string>
+    <string name="setting_dark_theme_title">深色主题跟随系统</string>
+    <string name="setting_dark_theme_desc">根据系统设置自动切换深色或浅色外观</string>
+
+    <!-- 课程提取与同步对话框 CoursePreviewSyncDialog -->
+    <string name="preview_dialog_title">课程提取预览</string>
+    <string name="preview_dialog_subtitle">共提取到 %1$d 门课程，请选择同步目标</string>
+    <string name="semester_start_info">学期开学：%1$s</string>
+    <string name="semester_start_fallback">学期开学：未从教务脚本提取，将以本周作为第 1 周</string>
+    <string name="semester_total_weeks">学期总计：共 %1$d 周</string>
+    <string name="target_vivo_calendar">目标课程表</string>
+    <string name="new_vivo_calendar_option">新建课程表</string>
+    <string name="calendar_active_tag">" (当前激活)"</string>
+    <string name="calendar_existing_schedule_desc">现有 %1$d 门课程</string>
+    <string name="course_list_title">课程清单</string>
+    <string name="action_invoking">唤起中…</string>
+    <string name="action_syncing">同步中…</string>
+    <string name="action_invoke_system_import">导入新建课表</string>
+    <string name="action_confirm_sync">确认同步到该课表</string>
+    <string name="day_monday">周一</string>
+    <string name="day_tuesday">周二</string>
+    <string name="day_wednesday">周三</string>
+    <string name="day_thursday">周四</string>
+    <string name="day_friday">周五</string>
+    <string name="day_saturday">周六</string>
+    <string name="day_sunday">周日</string>
+    <string name="day_format">周%1$d</string>
+    <string name="course_section_range">" 第%1$d-%2$d节"</string>
+
+    <!-- 教务选择 SchoolSelectionSheet -->
+    <string name="school_select_title">选择教务系统</string>
+    <string name="school_search_placeholder">搜索高校名称或教务类型</string>
+    <string name="school_searching">正在检索教务适配库…</string>
+    <string name="school_not_found">未找到相关高校或教务系统，可尝试直接使用通用正方或通用青果</string>
+    <string name="adapter_direct_badge">直达</string>
+    <string name="adapter_select_title">选择适配器</string>
+    <string name="adapter_loading">正在获取适配器…</string>
+    <string name="adapter_load_failed">适配器加载失败</string>
+    <string name="action_retry">重试</string>
+
+    <!-- 网页导入 ShiguangImportScreen -->
+    <string name="import_bottom_hint">登录并打开个人课表页面后，点击开始提取</string>
+    <string name="toast_injecting_script">正在注入教务提取脚本…</string>
+    <string name="toast_script_load_failed">未能加载适配脚本，请重试</string>
+    <string name="action_extracting">提取中…</string>
+    <string name="action_execute_import">执行导入</string>
+    <string name="url_input_placeholder">输入学校教务系统网址 (http://...)</string>
+
+    <!-- ViewModel Toast 反馈 -->
+    <string name="toast_calendar_not_found">未检测到 vivo 系统日历或打开失败</string>
+    <string name="toast_calendar_created">已新建课程表「%1$s」</string>
+    <string name="toast_calendar_create_failed">新建失败: %1$s</string>
+    <string name="toast_calendar_switched">已切换激活课表</string>
+    <string name="toast_calendar_switch_failed">切换失败</string>
+    <string name="toast_calendar_deleted">课表已删除</string>
+    <string name="toast_calendar_delete_failed">删除失败</string>
+    <string name="toast_system_import_invoked">已唤起 vivo 系统课程表导入</string>
+    <string name="toast_invoke_failed">唤起失败: %1$s</string>
+    <string name="toast_sync_success_silent">同步成功</string>
+    <string name="toast_sync_failed">同步失败: %1$s</string>
+    <string name="toast_slots_diff_invoking">已唤起系统日历同步作息</string>
+    <string name="toast_import_save_success">课程表「%1$s」导入保存成功！</string>
+    <string name="toast_import_cancelled">未检测到课程表保存，已取消导入</string>
+    <string name="new_calendar_hint_system">将在 vivo 官方日历中完成创建并命名</string>
+
+    <!-- 教务网络镜像源设置 -->
+    <string name="setting_mirror_node_title">教务镜像源</string>
+    <string name="setting_mirror_node_desc">优先使用的脚本与数据下载线路</string>
+    <string name="mirror_node_auto">自动优选</string>
+    <string name="mirror_node_auto_desc">智能多源故障转移 (推荐)</string>
+    <string name="mirror_node_gitee">Gitee 官方镜像</string>
+    <string name="mirror_node_gitee_desc">国内骨干直连</string>
+    <string name="mirror_node_jsdelivr">jsDelivr 全球加速</string>
+    <string name="mirror_node_jsdelivr_desc">全球 CDN 边缘节点</string>
+    <string name="mirror_node_ghfast">ghfast.top 镜像</string>
+    <string name="mirror_node_ghfast_desc">GitHub 加速反代</string>
+    <string name="mirror_node_github">GitHub 官方直连</string>
+    <string name="mirror_node_github_desc">适合国际网络/代理环境</string>
+
+    <!-- 设置分组标题 -->
+    <string name="setting_group_appearance">外观与个性化</string>
+    <string name="setting_group_network">教务网络与加速</string>
+</resources>

@@ -1,0 +1,38 @@
+# Gradle & Build caches
+.gradle/
+build/
+app/build/
+.kotlin/
+
+# Local configuration
+local.properties
+
+# Android Studio & IntelliJ IDEA
+*.iml
+.idea/
+
+# Android build outputs & captures
+*.apk
+*.aab
+output-metadata.json
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing keys & secrets (CRITICAL)
+*.jks
+*.keystore
+signing.properties
+
+# Logs & Memory Dumps
+*.log
+*.hprof
+
+# OS specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
